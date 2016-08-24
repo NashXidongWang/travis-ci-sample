@@ -1,1 +1,2 @@
 language: swift
+xcodebuild -workspace travisCiSample.xcworkspace -scheme travisCiSample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO

@@ -1,3 +1,4 @@
-language: swift
+language: objective-c
+install: true
 script:
-    - xctool -workspace travisCiSample.xcworkspace -scheme travisCiSample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- xctool -workspace travisCiSample.xcworkspace -scheme travisCiSample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO

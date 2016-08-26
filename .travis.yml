@@ -1,4 +1,23 @@
 language: objective-c
+osx_image: xcode7.3
+
+before_install: true
+
 install: true
+
+before_script: true
+
 script:
 - xctool -workspace travisCiSample.xcworkspace -scheme travisCiSample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+
+after_success: true
+
+after_failure: true
+
+after_script: true
+
+before_deploy: true
+
+deploy: true
+
+after_deploy: true
